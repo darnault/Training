@@ -1,0 +1,41 @@
+hr
+{
+	height: 4px;
+	background-color: #BCBBBB;
+}
+
+.row
+{
+	display: flex;
+}
+
+.grey-sceme
+{
+	color: #BCBBBB;
+}
+
+.green-sceme
+{
+	color: #747704;
+}
+
+.apply-lato
+{
+	font-family: 'Lato', sans-serif;
+	margin-top: 30px;
+}
+
+.extra-margin
+{
+	margin-top: 20px;
+}
+
+.jane-font
+{
+	font-size: 63px;
+}
+
+.circle
+{
+	border-radius: 50%;
+}
