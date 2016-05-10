@@ -35,7 +35,10 @@ hr
 	font-size: 63px;
 }
 
-.circle
+.mylogo
 {
 	border-radius: 50%;
+	margin-top: 20px;
+	max-width: 150px;
+	max-height: 150px;
 }
