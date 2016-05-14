@@ -1,4 +1,4 @@
-*
+body
 {
 	background-color: #6D246D;
 }
@@ -16,6 +16,7 @@ hr
 	max-width: 150px;
 	max-height: 150px;
 }
+
 
 .myGrid
 {
