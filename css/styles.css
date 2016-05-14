@@ -1,7 +1,23 @@
 hr
 {
 	height: 4px;
-	background-color: #BCBBBB;
+	background-color: #E0B463;
+}
+
+.mylogo
+{
+	border-radius: 50%;
+	margin-top: 20px;
+	max-width: 150px;
+	max-height: 150px;
+}
+
+.myGrig
+{
+	margin-left: auto;
+	margin-right: auto;
+
+	width: 97%;
 }
 
 .row
@@ -33,12 +49,4 @@ hr
 .jane-font
 {
 	font-size: 63px;
-}
-
-.mylogo
-{
-	border-radius: 50%;
-	margin-top: 20px;
-	max-width: 150px;
-	max-height: 150px;
 }
