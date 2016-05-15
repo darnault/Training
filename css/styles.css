@@ -25,6 +25,12 @@ hr
 	margin-right: 10%;
 }
 
+.myCarousel
+{
+	max-width: 1140px;
+	max-height: 450px;
+}
+
 .row
 {
 	display: flex;
