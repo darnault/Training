@@ -20,30 +20,12 @@
 	</head>
 	<!-- BODY -->
 	<body>
-		<div class="modal fade" id="myCredits" tabindex="-1" role="dialog" aria-hidden="true">
-			<div class="modal-dialog" role="document">
-				<!-- MODAL CONTENT -->
-				<div class="modal-content">
-					<!-- MODAL HEADER -->
-					<div class="modal-header">
-						<h4 class="modal-title">Credits</h4>
-					</div>
-					<!-- MODAL BODY -->
-					<div class="modal-body">
-						<h1>HELLO, WORLD!</h1>
-					</div>
-					<!-- MODAL FOOTER -->
-					<div class="modal-footer">
-						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-					</div>
-				</div> <!-- END CONTENT -->
-			</div>
-		</div> <!-- END MODAL -->
-
-		<div class="myGrid">
+		<!-- PAGE CONTAINER -->
+		<div class="container">
 			<div class="row center-block text-uppercase gree-sceme">
-				<div class="col-xs-2 col-sm-2 col-md-2">
-					<img class="mylogo" src="images/deer.jpg" alt="Image not found">
+				<div class="col-xs-2 col-sm-2 col-md-2 text-center">
+					<img class="mylogo" src="images/deer.jpg" alt="Image not found" data-toggle="modal" data-target="#myCredits">
+					<h6 style="font-size: 7px; color: #E0B463">Click Logo</h6>
 				</div>
 				<div class="col-xs-10 col-sm-10 col-md-10 text-right apply-lato">
 					<h1 class="jane-font">Djidjelly P. Siclait</h1>
@@ -72,22 +54,41 @@
 			<div class="row text-center green-sceme">
 				<div class="col-xs-4 col-sm-4 col-md-4">
 					<img class="img-responsive" src="http://placekitten.com/350/200" alt="Image not found">
-					<h2 class="text-uppercase">Work</h2>
-					<p><a class="green-sceme apply-lato" href="https://github.com/udacity/Appify/">https://github.com/udacity/Appify/</a></p>
+					<h2 class="text-uppercase">Portfolio</h2>
 				</div>
 				<div class="col-xs-4 col-sm-4 col-md-4">
 					<img class="img-responsive" src="http://placekitten.com/350/200" alt="Image not found">
 					<h2 class="text-uppercase">Education</h2>
-					<p><a class="green-sceme apply-lato" href="https://github.com/udacity/Sunflower/">https://github.com/udacity/Sunflower/</a></p>
 				</div>
 				<div class="col-xs-4 col-sm-4 col-md-4">
 					<img class="img-responsive" src="http://placekitten.com/350/200" alt="Image not found">
 					<h2 class="text-uppercase">Skill</h2>
-					<p><a class="green-sceme apply-lato" href="https://github.com/udacity/Bokeh/">https://github.com/udacity/Bokeh/</a></p>
 				</div>
 			</div>
 		</div> <!-- END CONTAINER -->
 		
+		<!-- MODALS -->
+		<div class="modal fade" id="myCredits" tabindex="-1" role="dialog" aria-hidden="true">
+			<div class="modal-dialog" role="document">
+				<!-- MODAL CONTENT -->
+				<div class="modal-content" style="background-color: #E8B75E">
+					<!-- MODAL HEADER -->
+					<div class="modal-header">
+						<h4 class="modal-title text-center"><span style="color: purple">Djidjelly P. Siclait</span></h4>
+					</div>
+					<!-- MODAL BODY -->
+					<div class="modal-body">
+						<img class="center-block" style="border-radius: 50%" src="https://fbcdn-photos-a-a.akamaihd.net/hphotos-ak-xpa1/v/t1.0-0/p206x206/1901990_10201477234879608_1665224283_n.jpg?oh=2913fb7b5f7e64046b8d0fb72eea2872&oe=57D872C6&__gda__=1474623916_da8609d7be9dccfa5dc8e383b54a0f39" alt="One handsome man">
+						<h1 class="text-center"><a href="https://www.facebook.com/djidjelly.siclait?viewas=100000686899395&privacy_source=timeline_gear_menu" style="color: purple">HELLO, WORLD!</a></h1>
+						<p><em>'Our virtues and our failings are inseparable, like force and matter. When they separate, man is no more.'</em> <strong>- Nikola Tesla</strong></p>
+					</div>
+					<!-- MODAL FOOTER -->
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					</div>
+				</div> <!-- END CONTENT -->
+			</div>
+		</div> <!-- END MODAL -->
 	</body>
 
 </html>
