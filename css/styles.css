@@ -1,7 +1,34 @@
+body
+{
+	background-image: url("imprint.jpg");
+	background-color: #6D246D;
+}
+
 hr
 {
 	height: 4px;
-	background-color: #BCBBBB;
+	background-color: #E0B463;
+}
+
+.mylogo
+{
+	border-radius: 50%;
+	margin-top: 20px;
+	max-width: 150px;
+	max-height: 150px;
+}
+
+
+.myGrid
+{
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+.myCarousel
+{
+	max-width: 1140px;
+	max-height: 450px;
 }
 
 .row
@@ -16,13 +43,14 @@ hr
 
 .green-sceme
 {
-	color: #747704;
+	color:  #E0B463;
 }
 
 .apply-lato
 {
 	font-family: 'Lato', sans-serif;
 	margin-top: 30px;
+	color:  #E0B463;
 }
 
 .extra-margin
@@ -33,12 +61,5 @@ hr
 .jane-font
 {
 	font-size: 63px;
-}
-
-.mylogo
-{
-	border-radius: 50%;
-	margin-top: 20px;
-	max-width: 150px;
-	max-height: 150px;
+	
 }
