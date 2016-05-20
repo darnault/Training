@@ -18,6 +18,12 @@ hr
 	max-height: 150px;
 }
 
+.mylogo:hover{
+	border-radius: 50%;
+	max-width: 140px;
+	max-height: 140px;
+}
+
 
 .myGrid
 {
