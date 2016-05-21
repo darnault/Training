@@ -70,3 +70,12 @@ hr
 	font-size: 63px;
 	
 }
+
+#change{
+	color: purple;
+}
+
+#change:hover {
+	text-decoration: none;
+	color: blue;
+}
