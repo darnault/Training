@@ -1,3 +1,26 @@
- * {
+* {
  	border: 1px dashed blue;
- }
+}
+
+body {
+	margin: 0px;
+	min-height: 618px;
+}
+
+#header {
+ 	height: 50px;
+ 	margin: 0px;
+ 	width: 100%;
+}
+
+#content {
+ 	height: 518px;
+ 	margin: 0px;
+ 	width: 100%;
+}
+
+#footer {
+ 	height: 50px;
+ 	margin: 0px;
+ 	width: 100%;
+}
