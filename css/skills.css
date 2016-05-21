@@ -7,10 +7,36 @@ body {
 	min-height: 618px;
 }
 
+hr {
+	height: 3px;
+	background-color: #FFDF00;
+	margin: 3px 0px 3px 0px;
+}
+
+div > p {
+	margin: 5px 0px 0px 0px;
+
+}
+
 #header {
  	height: 50px;
  	margin: 0px;
  	width: 100%;
+ 	background-color: rgba(222, 192, 33, 0.71);
+}
+
+#tag {
+	margin: -19px 0px 0px 0px;
+	width: 300px;
+	background-color: rgba(102, 30, 169, 0.6);
+	text-decoration: none;
+}
+
+#tag:hover {
+	margin: 0px;
+	width: 300px;
+	background-color: rgba(102, 30, 169, 0.6);
+	text-decoration: underline;
 }
 
 #content {
@@ -25,13 +51,40 @@ body {
 	border-radius: 5px;
 	text-align: center;
 	float: left;
+	background-color: rgba(102, 30, 169, 0.6);
+}
+
+#title {
+	text-align: center;
+	font-family: Times;
+	font-size: 25px;
+	color: #FFDF00;
+}
+
+#text {
+	height: 465px;
+	padding: 0px 10px 0px 10px;
+	overflow: scroll;
+}
+
+#paper {
+	text-align: left;
+	color: #FFDF00;
+	text-indent: inherit;
+}
+
+#right {
+	text-align: left;
+	color: #FFDF00;
 }
 
 #container {
-	height: 518px;
+	height: 511px;
 	width: 69.2%; /*For now*/
 	margin: auto;
 	float: right;
+	background-image: url("galactic.jpg");
+	border: 4px solid #E0B463;
 }
 
 .bubble {
@@ -46,7 +99,7 @@ body {
 	border-radius: 50%;
 	max-height: 100px;
 	max-width: 100px;
-	border: 2px solid #008000;
+	border: 2px solid #E0B463;
 }
 
 .filler {
@@ -63,4 +116,84 @@ body {
  	height: 50px;
  	margin: 0px;
  	width: 100%;
+ 	background-color: rgba(222, 192, 33, 0.71);
+}
+
+.button {
+	display: inline-block;
+	height: 30px;
+	width: 100px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 18%;
+	border-radius: 5px;
+	text-align: center;
+	float: left;
+}
+
+#codeschool {
+	background-color: #02b3e4;
+	color: white;
+	border: 2px;
+	border-color: white;
+	border-style: dotted;
+	text-decoration: none;
+}
+
+#codecademy {
+	background-color: #152B39;
+	color: white;
+	border: 2px dashed white;
+	font-family: courier;
+	font-size: 15px;
+	text-decoration: underline;
+}
+
+#udacity {
+	background-color: white;
+	color: #02b3e4;
+	border: 2px solid #02b3e4;
+	font-family: verdana;
+	font-size: 14px;
+	text-decoration: none;
+}
+
+.button-text {
+	margin: 5px 0px 5px 0px;
+}
+
+#a-codeschool {
+	background-color: #02b3e4;
+	color: white;
+	text-decoration: none;
+}
+
+#a-codeschool:hover {
+	text-decoration: underline;
+	color: blue;
+}
+
+#a-codecademy {
+	background-color: #152B39;
+	color: white;
+	font-family: courier;
+	font-size: 15px;
+	text-decoration: underline;;
+}
+
+#a-codecademy:hover {
+	color: cyan;
+}
+
+#a-udacity {
+	background-color: white;
+	color: #02b3e4;
+	font-family: verdana;
+	font-size: 14px;
+	text-decoration: none;
+}
+
+#a-udacity:hover {
+	text-decoration: underline;
+	color: blue;
 }
